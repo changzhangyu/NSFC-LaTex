@@ -1,8 +1,24 @@
-Main.aux
-Main.bbl
-Main.blg
-Main.fdb_latexmk
-Main.fls
-Main.log
+# 通用辅助文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# Latexmk
+*.latexmk
+*.latexmkrc
+
 Main.pdf
-Main.synctex.gz
+NSFC-MS26.pdf
