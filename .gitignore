@@ -1,4 +1,7 @@
+# 以'#' 开始的行，被视为注释
+
 # 通用辅助文件
+*.DS_Store
 *.aux
 *.log
 *.out
@@ -15,6 +18,8 @@
 *.nav
 *.snm
 *.vrb
+*.zip
+.texpadtmp/
 
 # Latexmk
 *.latexmk
@@ -22,3 +27,10 @@
 
 Main.pdf
 NSFC-MS26.pdf
+
+# 忽略所有.o 和 .a文件.
+*.[oa]
+# 忽略以!开头的文件和文件夹，方便写自己的内容
+⚠︎*
+⚠︎*/
+.DS_Store
